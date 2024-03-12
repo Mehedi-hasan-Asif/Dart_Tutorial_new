@@ -56,6 +56,6 @@ class Teacher{
 
 //  }
   //Note:When we used required that means properties or attributes name required
-//Teacher({required this.name,required this.subject,required this.age})
+//Teacher({required this.name,required this.subject,required this.age})//Consturctor
   Teacher(this.name,this.subject,this.age);
 }
