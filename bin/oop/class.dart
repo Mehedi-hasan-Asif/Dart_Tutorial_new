@@ -4,7 +4,8 @@ void main(){
   studentOne.name='Rafat';
   studentOne.section='golap';
   studentOne.age=40;
-
+  Student.institution;
+//object is a class instance here (studentTwo is a instance)
   Student studentTwo =Student();
   studentTwo.name='Mehedi';
   studentTwo.section='Lily';
@@ -16,6 +17,7 @@ void main(){
   print(listOfStudent);
   Teacher cseTeacher=Teacher('Shafkat ','32','Computer Graphics');
   print(cseTeacher.name);
+  print(Student.institution);
 
 
 }
@@ -27,6 +29,8 @@ class Student{
   String name='';
   String section='';
   int age=0;
+  //Static keyword related with class not method object
+  static String institution ='Dhaka University';
 //constructor
   Student() {
     print('Anything');
